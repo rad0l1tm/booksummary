@@ -1,26 +1,3 @@
-
-"""
-text_blocker_neural.py
------------------------
-Делит текст (произведение) на блоки примерно
-равного размера (по числу слов) и генерирует для каждого блока 
-"человечное" описание содержания — не набор цитат, а
-пересказ своими словами. Для этого используется локальная
-нейросеть-суммаризатор (по умолчанию — rut5_base_sum_gazeta)
-Модель скачивается один раз (~1 ГБ) и кэшируется локально
-(~/.cache/huggingface), дальше работает офлайн.
-
-Установка (один раз, нужен интернет):
-    pip install transformers torch sentencepiece --break-system-packages
-
-Использование:
-    python3 text_blocker_neural.py input.txt \
-        --words-per-block 500 \
-        --format markdown \
-        --output result.md
-
-"""
-
 import argparse
 import json
 import re
