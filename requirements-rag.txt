@@ -1,0 +1,8 @@
+# RAG-зависимости (Python 3.10+)
+langchain-core>=1.0.0
+langchain-qdrant>=1.1.0
+langchain-huggingface>=1.2.0
+langchain-text-splitters>=1.0.0
+langchain-ollama>=1.1.0
+qdrant-client>=1.15.0
+sentence-transformers>=5.0.0
