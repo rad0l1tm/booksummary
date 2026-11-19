@@ -1,4 +1,4 @@
-# RAG для text_blocker: LangChain + Qdrant
+# booksummary: RAG система для книг и документов
 
 ## 1. Описание
 
